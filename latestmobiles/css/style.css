@@ -1,0 +1,99 @@
+/* header */
+header{
+    min-height: 1vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/header_bg.png) center/cover no-repeat fixed;
+    display: flex;
+    background: #000;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.6);
+
+    padding: 1.2rem;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Roboto;
+    letter-spacing: 1px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.table-box
+{
+    margin: 50px auto;
+    background: #000;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    background: #fff;
+    font-family: sans-serif;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    color: #000;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #0988e8;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+}
+.last-cell{
+    border-right: none;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
+
+.p1 {
+    font-family: Roboto;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+
+}
+
+.p1 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
